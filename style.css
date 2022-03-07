@@ -1,0 +1,142 @@
+/* Starting Styles for Converse Challenge */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* Practice using CLASSES to style elements rather than ELEMENT selectors
+(and don't use ID# selectors) */
+
+/* .product - wraps the entire content */
+.product {
+  width: 825px;
+  /*border*/
+  /*margin*/
+  /*position*/
+}
+
+.title {
+  /*font-size*/
+  /*text-transform*/
+  /*text-aling*/
+  /*background-color*/
+  /*color*/
+  /*padding*/
+}
+
+/* Product Information */
+.price {
+  /*font-size*/
+  /*font-weight*/
+}
+
+.shipping {
+  /*text-transform*/
+  /*color*/
+  /*font-weight*/
+  /*font-size*/
+}
+
+/* style links always list all 4 states in order LVHA */
+/* here link and visited are same style */
+.more-info:link,
+.more-info:visited {
+  /*color*/
+  display: inline-block;
+  /*margin*/
+  /*margin-top*/
+}
+
+/* apply style to both hover and active states */
+.more-info:hover,
+.more-info:active {
+  /*text-decoration*/
+  /*color*/
+}
+/*END of Product Information*/
+
+/* Product Details */
+.details-title {
+  /*text-transform*/
+  /*font-size*/
+  /*margin-top*/
+  /*margin-bottom: 10px;*/
+}
+
+.details-list {
+  /*margin-left*/
+  /*margin-bottom*/
+  /*list-style: square;*/
+  /*line-height*/
+}
+
+.details-list li {
+  /*margin-bottom*/
+}
+/*END of Product Details*/
+
+/*Add to Cart */
+.add-cart {
+  /*background-color*/
+  /*color*/
+  /*font-size*/
+  /*cursor*/
+  /*text-transform*/
+  width: 100%;
+}
+
+/* add hover pseudo-class to .add-cart style */
+.add-cart:hover {
+  /*background-color*/
+  /*color*/
+}
+/*END of Add to Cart*/
+
+/*Color Blocks*/
+.color {
+  /*background-color*/
+  width: 25px;
+  height: 25px;
+}
+
+.color-red {
+  /*background-color*/
+}
+.color-blue {
+  /*background-color*/
+}
+.color-yellow {
+  /*background-color*/
+}
+.color-green {
+  /*background-color*/
+}
+.color-brown {
+  /*background-color*/
+}
+/*End of Color Blocks */
+
+/*Sale in Corner*/
+.sale {
+  /*background-color*/
+  display: inline-block; /* better way to set width */
+  /*color*/
+  /*letter-spacing*/
+  /*font-weight*/
+  /*text-transform*/
+  /*padding*/
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /*POSITIONING (Out-of-flow)*/
+  /*position*/
+  /*top*/
+  /*left*/
+}
+/*END of Sale*/
+
+/*Flexbox Layout*/
+/*Determine which classes need to be flex containers and which are flex items */
