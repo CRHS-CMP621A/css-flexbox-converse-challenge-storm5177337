@@ -4,7 +4,7 @@
 
 ![Goal](assets/goal_Converse_Challenge.JPG)
 
-### There are some over effects that can be observed in this gif.
+### There are some HOVER effects that can be observed in this gif.
 
 ![](assets/Chuck%20Taylor.gif)
 
