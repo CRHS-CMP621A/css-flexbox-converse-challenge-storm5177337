@@ -15,38 +15,38 @@ body {
 /* .product - wraps the entire content */
 .product {
   width: 825px;
-  /*border*/
-  /*margin*/
-  /*position*/
+  border: 4px solid black;
+  margin: 30px auto;
+  position: relative;
 }
 
 .title {
-  /*font-size*/
-  /*text-transform*/
-  /*text-aling*/
-  /*background-color*/
-  /*color*/
-  /*padding*/
+  font-size: 22px;
+  text-transform: uppercase;
+  text-align: center;
+  background-color: #dddddd; /*grey*/
+  color: #1d1d1d;
+  padding: 4px 0;
 }
 
 /* Product Information */
 .price {
-  /*font-size*/
-  /*font-weight*/
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .shipping {
-  /*text-transform*/
-  /*color*/
-  /*font-weight*/
-  /*font-size*/
+  text-transform: uppercase;
+  color: #969696;
+  font-weight: bold;
+  font-size: 16px;
 }
 
 /* style links always list all 4 states in order LVHA */
 /* here link and visited are same style */
 .more-info:link,
 .more-info:visited {
-  /*color*/
+  color: black;
   display: inline-block;
   /*margin*/
   /*margin-top*/
@@ -62,10 +62,10 @@ body {
 
 /* Product Details */
 .details-title {
-  /*text-transform*/
-  /*font-size*/
+  text-transform: uppercase;
+  font-size: 20px;
   /*margin-top*/
-  /*margin-bottom: 10px;*/
+  margin-bottom: 10px;
 }
 
 .details-list {
@@ -82,8 +82,8 @@ body {
 
 /*Add to Cart */
 .add-cart {
-  /*background-color*/
-  /*color*/
+  background-color: #000;
+  color: #fff;
   /*font-size*/
   /*cursor*/
   /*text-transform*/
@@ -99,42 +99,42 @@ body {
 
 /*Color Blocks*/
 .color {
-  /*background-color*/
+  background-color: #000;
   width: 25px;
   height: 25px;
 }
 
 .color-red {
-  /*background-color*/
+  background-color: #ec2f2f;
 }
 .color-blue {
-  /*background-color*/
+  background-color: #2224b2;
 }
 .color-yellow {
-  /*background-color*/
+  background-color: #f0bf1e;
 }
 .color-green {
-  /*background-color*/
+  background-color: #0bff02;
 }
 .color-brown {
-  /*background-color*/
+  background-color: #8a4c06;
 }
 /*End of Color Blocks */
 
 /*Sale in Corner*/
 .sale {
-  /*background-color*/
+  background-color: #ff2600;
   display: inline-block; /* better way to set width */
-  /*color*/
-  /*letter-spacing*/
-  /*font-weight*/
-  /*text-transform*/
-  /*padding*/
+  color: white;
+  letter-spacing: 2px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 7px 15px;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   /*POSITIONING (Out-of-flow)*/
-  /*position*/
-  /*top*/
-  /*left*/
+  position: absolute;
+  top: -20px;
+  left: -35px;
 }
 /*END of Sale*/
 
