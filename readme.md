@@ -1,7 +1,5 @@
 # CMP621A - Converse Challenge Assignment
 
-[Google Doc version of Instructions](https://docs.google.com/document/d/1Vu9rjYSsOLjRQZ9KoyMbgLq6Fqv3-mfUDqUNs8dF67c/edit?usp=sharing)
-
 ### This image shows the finished Converse page with component layouts created using flexbox.
 
 ![Goal](assets/goal_Converse_Challenge.JPG)
