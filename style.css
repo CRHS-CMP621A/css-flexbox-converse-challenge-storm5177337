@@ -24,7 +24,7 @@ body {
   font-size: 22px;
   text-transform: uppercase;
   text-align: center;
-  background-color: #dddddd; /*grey*/
+  background-color: #dddddd;
   color: #1d1d1d;
   padding: 4px 0;
 }
@@ -64,19 +64,19 @@ body {
 .details-title {
   text-transform: uppercase;
   font-size: 20px;
-  /*margin-top*/
+  margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .details-list {
-  /*margin-left*/
-  /*margin-bottom*/
-  /*list-style: square;*/
-  /*line-height*/
+  margin-left: 20px;
+  margin-bottom: 30px;
+  list-style: square;
+  line-height: 1.5;
 }
 
 .details-list li {
-  /*margin-bottom*/
+  margin-bottom: 15px;
 }
 /*END of Product Details*/
 
@@ -84,9 +84,9 @@ body {
 .add-cart {
   background-color: #000;
   color: #fff;
-  /*font-size*/
-  /*cursor*/
-  /*text-transform*/
+  font-size: 16px;
+  cursor: pointer;
+  text-transform: uppercase;
   width: 100%;
 }
 
@@ -140,3 +140,29 @@ body {
 
 /*Flexbox Layout*/
 /*Determine which classes need to be flex containers and which are flex items */
+
+.row {
+  display: flex;
+  gap: 30px;
+}
+
+.info-head {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+}
+
+.colors {
+  display: flex;
+  gap: 12px;
+}
+
+.details-title {
+  display: flex;
+  margin-top: 20px;
+margin-bottom: 10px;
+}
+
+.product-details {
+  flex: 1;
+}
