@@ -19,7 +19,7 @@ background-color: #dddddd; /*grey*/
 color: #1d1d1d; /*black*/
 color: #969696; /*light grey*/
 color: black;
-background-color: #000; /*black*/
+background-color: #fff; /*white*/
 color: #fff; /*white*/
 background-color: #000; /*black*/
 background-color: #ec2f2f; /*red*/
